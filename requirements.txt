@@ -1,0 +1,3 @@
+jupyterlab
+camelot-py
+tabulate
