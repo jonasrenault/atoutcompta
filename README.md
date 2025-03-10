@@ -2,6 +2,10 @@
 
 Script pour générer les écritures comptables pour la saisie des salaires d'Atoutprises
 
+## Installation
+
+Il faut installer ghostscript en local. Suivre les instructions [ici](https://camelot-py.readthedocs.io/en/master/user/install-deps.html).
+
 ### Utilisation en ligne avec Google Colab
 
 <a target="_blank" href="https://colab.research.google.com/github/jonasrenault/atoutcompta/blob/main/ComptaColab.ipynb">
@@ -10,18 +14,16 @@ Script pour générer les écritures comptables pour la saisie des salaires d'At
 
 ### Utilisation en local
 
-Créer un environnement python avec les dépendences nécessaires :
+Installer le projet avec [uv](https://github.com/astral-sh/uv) :
 
 ```bash
-conda create -n atoutcompta python=3.11
-conda activate atoutcompta
-pip install -r requirements.txt
+uv sync
 ```
 
 Lancer le server jupyter-lab
 
 ```bash
-$ jupyter-lab
+$ uv run jupyter lab
 ```
 
 S'assurer que le fichier avec les dépenses simplifiées est dans le répertoire courant.

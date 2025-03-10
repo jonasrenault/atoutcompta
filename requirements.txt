@@ -1,6 +1,0 @@
-jupyterlab
-camelot-py
-tabulate
-opencv-python
-PyPDF2
-ghostscript
