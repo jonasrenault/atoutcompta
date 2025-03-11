@@ -1,10 +1,12 @@
 # Compta Atoutprises
 
-Script pour générer les écritures comptables pour la saisie des salaires d'Atoutprises
+Script pour générer les écritures comptables pour la saisie des salaires d'Atoutprises.
 
 ## Installation
 
 Il faut installer ghostscript en local. Suivre les instructions [ici](https://camelot-py.readthedocs.io/en/master/user/install-deps.html).
+
+## Utilisation
 
 ### Utilisation en ligne avec Google Colab
 
@@ -27,4 +29,3 @@ $ uv run jupyter lab
 ```
 
 S'assurer que le fichier avec les dépenses simplifiées est dans le répertoire courant.
-
